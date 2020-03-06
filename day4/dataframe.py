@@ -67,3 +67,7 @@ data2 = {
 
 df3 = DataFrame(data2)
 print(df3)  # 제일 긴 것 기준으로 만들어지고 없는 데이터는 NaN 할당
+
+print(df3.T)  # row랑 col 바꿔서 반환
+
+print(df3.values)  # DataFrame에서 value속성은 2차원 배열로 반환
